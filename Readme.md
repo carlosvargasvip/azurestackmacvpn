@@ -6,7 +6,7 @@ How to use the code
 * Download the scripts to the host so you can gather the information you need to configure your VPN session. 
 ~~~~
 Invoke-WebRequest -Uri https://github.com/carlosvargasvip/azurestackmacvpn/archive/master.zip -Outfile $env:userprofile\downloads\azurestackvpn.zip
-expand-archive $env:userprofile\downloads\azurestackvpn.zip 
+expand-archive $env:userprofile\downloads\azurestackvpn.zip . -force
 ~~~~
 
 * Execute the scripts to gather your information. The results will be store in your $env:userprofile\downloads folder

@@ -1,6 +1,7 @@
 This is the repo for the script to configure and gather information for Azure Stack MAC OS X VPN
 
 How to use the code
+
 1. Login to your Azure Stack Hyper-V Host
 2. Download the scripts to the host so you can gather the information you need to configure your VPN session. 
 ~~~~
